@@ -971,6 +971,7 @@ body.offcanvas {
           font-size: 16px;
           color: #333333; }
     .project .desc h3 {
+      color: #fff;
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
@@ -985,8 +986,6 @@ body.offcanvas {
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
-      .project .desc h3 a {
-        color: #fff; }
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);

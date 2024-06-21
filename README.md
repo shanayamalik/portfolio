@@ -1,6 +1,6 @@
 # Shanaya Malik's Portfolio
 
-Welcome to my personal portfolio repository! This repository contains the source code and assets for my online portfolio. It's a reflection of my journey in the tech industry, highlighting the projects I've worked on, the skills I've acquired, and my experiences in the field.
+Welcome to my personal portfolio repository! This repository contains the source code and for my online portfolio, highlighting the projects I've worked on, the skills I've acquired, and my experiences in the field.
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ My portfolio serves as a platform for potential employers, collaborators, or any
 3. Navigate to the project directory:
    ```bash
    cd portfolio
-
+ 
 4. Open the index.html file in your preferred web browser to view the portfolio.
 
 ## Contributing

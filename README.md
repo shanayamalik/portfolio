@@ -9,11 +9,7 @@ Welcome to my personal portfolio's repository! This repository contains the sour
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [License](#license)
-- [Contact](#contact)
-
-## Overview
-
-My portfolio serves as a platform for potential employers, collaborators, or anyone interested in my work to get to know me better.  
+- [Contact](#contact)  
 
 ## Features
 

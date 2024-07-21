@@ -1,6 +1,6 @@
 # Shanaya Malik's Portfolio
 
-Welcome to my personal portfolio's repository! This repository contains the source code for my portfolio, highlighting the projects I've worked on, the skills I've acquired, and my experiences in the software field.
+This repository contains the source code for my portfolio, highlighting the projects I've worked on, the skills I've acquired, and my experiences in software.
 
 ## Table of Contents
 

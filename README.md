@@ -1,4 +1,4 @@
-# Shanaya Malik's Portfolio
+# Shanaya Malik's SWE Portfolio
 
 This repository contains the source code for my portfolio, highlighting the projects I've worked on, the skills I've acquired, and my experiences in software.
 

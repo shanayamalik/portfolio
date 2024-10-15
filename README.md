@@ -30,17 +30,7 @@ This repository contains the source code for my portfolio, highlighting the proj
 
 ## Setup and Installation
 
-1. The portfolio can be viewed at https://www.shanaya.ai in your preferred web browser. 
-  
-2. If preferred, an alternative option is to clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/shanayamalik/portfolio.git
-
-3. Navigate to the project directory:
-   ```bash
-   cd portfolio
- 
-4. Open the index.html file in your preferred web browser to view the portfolio.
+The portfolio can be viewed at https://www.shanaya.ai in your preferred web browser. 
 
 ## License
 This project is licensed under the MIT License.

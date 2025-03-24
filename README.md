@@ -17,7 +17,7 @@ This repository contains the source code for my portfolio, highlighting the proj
 - **Skills**: List of technical skills, tools I'm familiar with, and areas of expertise.
 - **Projects**: Highlights of my projects, descriptions, technologies used, and links to live demos or code repositories. Check them out [here](https://github.com/shanayamalik).
 - **Work Experience**: Timeline of my roles and the impact I've made. Learn more about my work experience on [LinkedIn](https://www.linkedin.com/in/shanaya-malik/).
-- **Blog**: Insights, articles, and thoughts on various topics in the tech industry. Dive into my writings on [Medium](https://medium.com/@shanaya.malik).
+- **Blog**: Insights, articles, and thoughts on various topics in the tech industry. 
 - **Contact**: Section for visitors to drop me a message or get in touch.
 
 ## Technologies Used

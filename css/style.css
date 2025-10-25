@@ -545,7 +545,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #C8A8D8;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -555,17 +555,26 @@ body.offcanvas {
   -webkit-box-shadow: 0 0 0 5px #f2f3f7;
   box-shadow: 0 0 0 5px #f2f3f7;
   line-height: 40px;
-  float: left; }
+  float: left;
+  position: relative; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #fff; }
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #F8BBD9; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #B8E6B8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #D8BFD8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
-    background: #2fa499; }
+    background: #B6D7FF; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;

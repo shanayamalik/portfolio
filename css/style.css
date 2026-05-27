@@ -1467,3 +1467,42 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+/* ---- Writings: inline paper list ---- */
+.paper-list {
+  padding-top: 0; }
+
+.paper-entry {
+  padding: 10px 0; }
+
+.paper-entry-title {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a202c;
+  line-height: 1.4;
+  margin-bottom: 3px; }
+
+.paper-entry-desc {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 13px;
+  color: #718096;
+  line-height: 1.5;
+  margin-bottom: 3px; }
+
+.paper-entry-meta {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 13px;
+  color: #718096;
+  line-height: 1.5; }
+
+.paper-entry-venue {
+  font-style: italic; }
+
+.paper-entry-meta a {
+  color: #2c98f0;
+  font-weight: 700;
+  text-decoration: none; }
+
+.paper-entry-meta a:hover {
+  text-decoration: underline; }

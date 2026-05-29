@@ -1469,6 +1469,9 @@ body.offcanvas {
   opacity: 0; }
 
 /* ---- Writings: inline paper list ---- */
+.colorlib-blog .colorlib-heading {
+  margin-bottom: 1.8em; }
+
 .paper-list {
   padding-top: 0; }
 

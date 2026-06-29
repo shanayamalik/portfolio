@@ -953,6 +953,11 @@ body.offcanvas {
   transition: all 0.3s ease;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .project.project-clickable {
+    cursor: pointer; }
+  .project.project-clickable:focus-visible {
+    outline: 2px solid #2c98f0;
+    outline-offset: 2px; }
   .project:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);

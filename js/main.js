@@ -231,6 +231,9 @@
 	};
 
 	var stickyFunction = function() {
+		if (typeof $.fn.stick_in_parent !== 'function') {
+			return;
+		}
 
 		var h = $('.image-content').outerHeight();
 
@@ -286,6 +289,55 @@
 		})
 	};
 
+	var projectCardClick = function() {
+		$('#projects .project').each(function() {
+			var $card = $(this);
+			var $link = $card.find('.project-link').first();
+
+			if (!$link.length) {
+				return;
+			}
+
+			var href = $link.attr('href');
+			var target = $link.attr('target');
+			var title = $card.find('.project-title').first().text().trim();
+
+			if (!href) {
+				return;
+			}
+
+			$card.addClass('project-clickable');
+			$card.attr('tabindex', '0');
+			$card.attr('role', 'link');
+			if (title) {
+				$card.attr('aria-label', title);
+			}
+
+			var openProjectLink = function() {
+				if (target === '_blank') {
+					window.open(href, '_blank', 'noopener,noreferrer');
+				} else {
+					window.location.href = href;
+				}
+			};
+
+			$card.on('click', function(event) {
+				if ($(event.target).closest('a, button, input, textarea, select, label').length) {
+					return;
+				}
+
+				openProjectLink();
+			});
+
+			$card.on('keydown', function(event) {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					openProjectLink();
+				}
+			});
+		});
+	};
+
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -302,6 +354,7 @@
 
 		mobileMenuOutsideClick();
 		sliderMain();
+		projectCardClick();
 		stickyFunction();
 		owlCrouselFeatureSlide();
 	});

@@ -505,6 +505,13 @@ body.offcanvas {
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
+.panel-heading a .edu-school {
+  color: #ffe08a;
+  font-weight: 700; }
+
+.panel-heading a.collapsed .edu-school {
+  color: #2c98f0; }
+
 .panel-body {
   padding: 1.5em;
   margin-top: 5px;

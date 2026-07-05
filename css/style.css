@@ -506,11 +506,11 @@ body.offcanvas {
   color: #333333; }
 
 .panel-heading a .edu-school {
-  color: #ffe08a;
-  font-weight: 700; }
+  color: inherit;
+  font-weight: inherit; }
 
 .panel-heading a.collapsed .edu-school {
-  color: #2c98f0; }
+  color: inherit; }
 
 .panel-body {
   padding: 1.5em;
